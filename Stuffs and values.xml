@@ -1,0 +1,60 @@
+                <!-- ========== Def types ========== -->
+<ThingDef>				</ThingDef>
+
+                <!-- ========== Basic Layout ========== -->
+                
+<defName>					</defName>
+<label>             	    </label>
+<description>				</description>
+<graphicData>
+    <texPath>				</texPath>
+    <graphicClass>			</graphicClass>
+</graphicData>
+<soundInteract>				</soundInteract>
+<soundDrop>					</soundDrop>
+<stackLimit>				</stackLimit>
+
+					<!-- ========== thingClass and similar ========== -->
+<thingClass>				</thingClass>
+			ThingWithComp
+<category>					</category>
+			Item
+<
+			
+					<!-- ========== statBases ========== -->
+<statBases>
+    <MarketValue>			</MarketValue>
+    <Mass>					</Mass>
+	<Beauty>				</Beauty>
+</statBases>
+
+
+				<!-- ========== thingCategories ========== -->
+<thingCategories>
+    <li>					</li>
+			MeatRaw
+</thingCategories>
+
+<ingestible>
+	<foodType>				</foodType>
+				Seed
+				VegetableOrFruit
+	<nutriotion>			</nutrition>
+	<preferability>			</preferability>
+				RawTasty
+	
+</ingestible>
+
+
+
+
+				<!-- ========== comps ========== -->
+<comps>
+	<li Class="">
+		comp variable
+	</li>	
+</comps>
+		<!-- List of Comp Classes -->
+CompProperties_Rottable
+	<daysToStartRot>		</daysToStartRot>
+	
